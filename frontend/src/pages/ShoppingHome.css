@@ -1,0 +1,101 @@
+/* Background + Theme */
+.shopping-container {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #1e3a8a, #e5e7eb); /* Deep blue → soft gray */
+  min-height: 100vh;
+  padding: 20px;
+  color: #111;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.website-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f9fafb;
+  text-align: center;
+}
+
+.cart-button {
+  position: absolute;
+  right: 0;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #f9fafb;
+}
+
+/* Category Tiles */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+
+.category-tile {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.category-tile:hover {
+  transform: translateY(-5px);
+}
+
+.category-tile img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-tile h3 {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+/* Products Grid */
+.products-section {
+  padding: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}

@@ -1,0 +1,146 @@
+/* Background + Theme */
+.cart-container {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #1e3a8a, #e5e7eb);
+  min-height: 100vh;
+  padding: 30px;
+  color: #111;
+}
+
+/* Return Button */
+.return-btn {
+  background: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+}
+
+.return-btn:hover {
+  background: #e5e7eb;
+}
+
+/* Title */
+.cart-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #f9fafb;
+  margin-bottom: 30px;
+}
+
+/* Empty Cart */
+.empty-msg {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Cart Items Grid */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Cart Card */
+.cart-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.cart-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.cart-details h3 {
+  margin: 0;
+  color: #1e3a8a;
+}
+
+.cart-details p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Quantity Controls */
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.quantity-control button {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.quantity-control span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Remove Button */
+.remove-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #dc2626;
+}
+
+/* Total */
+.total {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111;
+}
+
+/* Address Box */
+.address-box {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Buy Button */
+.buy-btn {
+  margin-top: 15px;
+  background: #16a34a;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buy-btn:hover {
+  background: #15803d;
+}
