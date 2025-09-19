@@ -101,7 +101,7 @@ This project demonstrates practical implementation of AWS solutions aligned with
 
 **GitHub: [github.com/yourusername](https://github.com/sohang05)**
 
-**Linkedin:** [link]https://www.linkedin.com/in/sohan-gurav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+**Linkedin:** ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)- (https://www.linkedin.com/in/sohan-gurav-b8789b1a5/)  
 
 **Email:** *sohan02@gmail.com*
 
