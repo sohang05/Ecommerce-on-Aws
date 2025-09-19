@@ -99,9 +99,9 @@ This project demonstrates practical implementation of AWS solutions aligned with
 
 **Sohan Gurav - AWS Certified Cloud Practitioner | AWS Certified Solutions Architect**
 
-**GitHub: [github.com/yourusername](https://github.com/sohang05)**
+**GitHub: [My Github](https://github.com/sohang05)**
 
-**Linkedin:** ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)- (https://www.linkedin.com/in/sohan-gurav-b8789b1a5/)  
+**Linkedin: [My Linkedin](https://www.linkedin.com/in/sohan-gurav-b8789b1a5/)**  
 
 **Email:** *sohan02@gmail.com*
 
