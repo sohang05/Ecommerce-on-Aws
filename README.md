@@ -111,3 +111,7 @@ This project demonstrates practical implementation of AWS solutions aligned with
 - Integrate AWS CloudFront for CDN and improved frontend performance
 - Add SNS/SQS for order notifications and decoupled architecture
 - Implement encrypted S3 storage and RDS backups
+
+# 🎥 Demo
+
+![Demo](demo.gif)
